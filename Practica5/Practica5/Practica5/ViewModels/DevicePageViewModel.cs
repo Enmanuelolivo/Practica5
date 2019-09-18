@@ -13,6 +13,7 @@ namespace Practica5.ViewModels
         public ICommand GetOrientationCommand { get; set; }
         public DevicePageViewModel()
         {
+            //Comando para boton GetDeviceORientation, este dara la orientacion del dispositivo
             GetOrientationCommand = new Command(() =>
             {
                 IDeviceOrientationService service = DependencyService.Get<IDeviceOrientationService>();
