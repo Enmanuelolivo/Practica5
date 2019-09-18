@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:Practica5.Controls"
+             xmlns:local="clr-namespace:Practica5.Effects"
+             mc:Ignorable="d"
+             x:Class="Practica5.Views.DevicePage"
+             BackgroundColor="Red">
+    <ContentPage.Content>
+        <StackLayout>
+    
+            <!--Focuse Effect-->
+            <!--<Entry Text="Effect attached to an Entry">
+                <Entry.Effects>
+                    <local:FocusEffect />
+                </Entry.Effects>
+            </Entry>-->
+
+            <!--Custom Renderer for entry background color-->
+            <!--<controls:ExtendedEntry 
+                VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand"
+                ></controls:ExtendedEntry>-->
+            
+            <!--Get Device Orientation-->
+            <!--<Button Text="Get device orientation"
+                    VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"
+                    Command="{Binding GetOrientationCommand}"/>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
